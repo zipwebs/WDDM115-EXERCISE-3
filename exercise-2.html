@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<!-- Notice the indent of the codes below, to keep them nice and organized?  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jerome Ricketts | WDDM 113 - Exercise #2 main HTML document</title>
+    <meta name="description" content="Jerome Ricketts | WDDM 113 Exercise #2 main HTML document which will be compressed and uploaded for each assignment">
+
+	<!-- 
+	#####################################################################################
+
+	This is my new standardize exercise layout I'm implementing so that everything can stay in perfect order and look very presentable and visually appealing going above and beyond the requirements, hopefully this is enough to get a 10/10. 
+
+	#####################################################################################
+	-->   
+	
+    <!-- I love responsive websites, I know you said we shouldn't be using bootstrap so I went ahead and did a little suppn suppn that has the same effects of bootstrap for this project -->
+	<link href="css/responsive.css" rel="stylesheet">
+	
+    <!-- Loading the main styling css for the exercise -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- In this css we will now import a custom font library it could literally be any svg image, even my logo can be imported -->
+    <link href="css/fonts.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- This is my Favicon Which will Be loaded in the browser tab at the top -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+
+</head>
+<body>
+  
+	<!--begin header - The header section of a page is very important as it holds key information about the page and it's usually the area where we put our menu, logo, search bar, quick links and so on! But take a look at the structure of the menu below to see how organized they are! I'm seriously working for a 10/10 here! 😁
+	-->
+
+    <header class="header">
+
+        <!--begin nav -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            
+            <!--begin container -->
+            <div class="container">
+        
+                <!--begin navbar -->
+                <div class="navbar-header">
+				<!-- This the logo I designed in WDDM - 116 With Milorad Eftoski . PS. Notice I added a version on it? this is to bus local caching to force the user's device to fetch the latest vesion when the version is updated because I will be replacing it with a production grade logo and I want you to see it!  -->
+				<a href="index.html" class="navbar-brand brand logo"><img src="./images/logo.svg?version=1"></a>
+                </div>
+                        
+                <div id="navbar-collapse-02" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">			      
+                        <!-- <li><a href="index.html">Home</a></li> -->
+                        <li><a href="exercise-2.html">Exercise #2</a></li>                        
+                        <li><a href="#contact" class="purchase">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!--end navbar -->
+                                    
+            </div>
+    		<!--end container -->
+            
+        </nav>
+    	<!--end nav -->
+        
+    </header>
+    <!--end header -->
+    
+    <!--begin home_wrapper -->
+    <section id="home_wrapper" class="home-wrapper">
+
+        <!--begin gradient_overlay -->
+        <div class="gradient_overlay"></div>
+        <!--end gradient_overlay -->
+        
+        <!--begin container-->
+        <div class="container home-wrappe-inside"> 
+            
+            <!--begin row-->
+            <div class="row margin-bottom-30">
+            
+                <!--begin zip-grid-max-992-6-->
+                <div class="zip-grid-max-992-6 padding-top-20">
+                                
+                    <h1 class="home-title wow fadeIn" data-wow-delay="0.25s">Exercise 2: Buttons<br>With Javascript</h1>
+                    
+                    <ul class="features-list-hero">
+
+                        <li class="wow fadeIn" data-wow-delay="0.5s">
+                            <i class="icon icon-design-pencil-rule-streamline"></i> 
+							In this exercise we'll be diving into Buttons with Javascript, where we'll explore on click, mouse and so on!
+                        </li>
+
+                        <li class="wow fadeIn" data-wow-delay="0.75s">
+                            <i class="icon icon-arrow-streamline-target"></i> 
+                            Javascript is a very powerful scripting language which is one of the big three of the internet Namely, HTML, Javascript & CSS. HTML Does the markup, CSS does the styling and Javascript handles interactivity. .
+                        </li>
+
+                        <li class="wow fadeIn" data-wow-delay="1s">
+                            <i class="icon icon-speech-streamline-talk-user"></i> 
+                            JavaScript was invented by Brendan Eich in 1995 and after that Mozilla Foundation continued its developement for the Mozilla browser. Find out more about JavaScript here: <a href="https://www.w3schools.com/js/default.asp" class="light-link">W3 Schools</a> | <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="light-link">Mozilla </a>
+                        </li>
+
+                    </ul>
+           
+                </div>
+                <!--end zip-grid-max-992-6-->
+            
+            </div>
+            <!--end row-->
+              
+        </div>
+        <!--end container-->
+        
+    </section>
+    <!--end home_wrapper -->
+    
+    <!--begin section-grey-->
+    <div class="section-grey partner-logos-padding">
+        
+        <!--begin container-->
+        <div class="container">
+
+            <!--begin row-->
+            <div class="row text-center">
+            
+                <!--begin zip-grid-max-768-12-->
+                <div class="zip-grid-max-768-12 partner-logos">
+                    <img src="./images/humber-logo-blue-gold.svg" class="partner-logo" alt="Humber Logo">
+                    <img src="./images/visualstudio-code-icon.svg" class="partner-logo" alt="Visual Studio Code Icon">
+                    <img src="./images/githubl-logo.svg" class="partner-logo" alt="GitHub Logo From 2013">
+                    <img src="./images/linkedIn-logo.svg" class="partner-logo" alt="LinkedIn Logo">
+                    <img src="./images/adobe-corporate-logo.svg" class="partner-logo" alt="Adobe Corperate Logo">
+                </div>
+                <!--end zip-grid-max-768-12-->
+                
+            </div>
+            <!--end row-->
+            
+        </div>
+        <!--end container-->
+    
+    </div> 
+    <!--end section-grey-->
+    
+    <!--begin javaScript buttons-->
+    <section id="js-buttons" class="white-background">
+    
+      <!--begin section-white-->
+      <div id="change-bg" class="white-background section-white small-padding-bottom"> 
+          
+          <!--begin container-->
+          <div class="container"> 
+    
+                <!--begin row-->
+                <div class="row margin-bottom-30">
+                
+                    <!--begin zip-grid-max-992-12-->
+                    <div class="zip-grid-max-992-12 text-center">
+                        <h2 id="styled-header" class="section-title normal">JavaScript Buttons!</h2>
+                        
+                        <div class="separator_wrapper">
+                            <i class="icon icon-star-two red"></i>
+                        </div>
+                
+                        <p class="section-subtitle">In the excerpt below we'll be demonstrating some JavaScript buttons. <br/>Each 
+						having different interactivity results. So click on them to see the results</p>
+                    </div>
+                    <!--end zip-grid-max-992-12-->
+                
+                </div>
+                <!--end row-->
+                
+                <!--begin row-->
+                <div class="row">
+
+                    <!--begin zip-grid-max-768-4-->
+                    <div class="zip-grid-max-768-4 features-item">
+                
+                        <div class="icon-wrapper">
+                            <button class="btn btn-lg btn-blue small" onclick = "toggleContent()" > Click Me </button>
+                        </div>
+                    
+                        <h3>Change Inner HTML</h3>
+                        
+                        <p>
+                            This button will change the innter HTML of the element below that has the ID: <span class="blue-text">update-info()</span>.
+                        </p>
+						
+						<p id="update-info"></p>
+                    
+                    </div>
+                    <!--end zip-grid-max-768-4-->
+                    
+                    <!--begin zip-grid-max-768-4-->
+                    <div class="zip-grid-max-768-4 features-item">
+                
+                        <div class="icon-wrapper">
+                            <button class="btn btn-lg btn-blue small" onclick = "toggleSectionColor()" > Click Me </button>
+                        </div>
+                    
+                        <h3>Change Background Color</h3>
+                        
+                        <p>
+                            This button calls the <span class="blue-text">toggleSectionColor()</span> function, it will change the background color of this container, once it is clicked to #b7e7ff and once it's clicked again it will change it back to hex color: #ffffff.
+                        </p>
+                    
+                    </div>
+                    <!--end zip-grid-max-768-4-->
+                    
+                    <!--begin zip-grid-max-768-4-->
+                    <div class="zip-grid-max-768-4 features-item">
+                
+                        <div class="icon-wrapper">
+                             <button class="btn btn-lg btn-blue small" onclick = "toggleSectionHeadingDecoration()" > Click Me </button>
+                        </div>
+                    
+                        <h3>Change Text Color size & Font</h3>
+                        
+                        <p>
+                            Once clicked this button will call the fuction <span class="blue-text">toggleSectionHeadingDecoration()</span> which will change the text color, size and font of the section heading above. 
+                        </p>
+                    
+                    </div>
+                    <!--end zip-grid-max-768-4-->
+                    
+                </div>
+                <!--end row-->
+                 <!--begin row-->
+                <div class="row">
+
+                    <!--begin zip-grid-max-768-4-->
+                    <div class="zip-grid-max-768-4 features-item">
+                
+                        <div class="icon-wrapper">
+                            <button id="duplicateMe" class="btn btn-lg btn-blue small center-button" onclick = "duplicateMe()" > Click Me </button>
+                        </div>
+                    
+                        <h3>Duplicate Button</h3>
+                        
+                        <p>
+                            This button usues the function: <span class="blue-text">duplicateMe()</span> to duplicate the actual button vertically.
+                        </p>
+						
+						<p id="update-info"></p>
+                    
+                    </div>
+                    <!--end zip-grid-max-768-4-->
+                    
+                    <!--begin zip-grid-max-768-4-->
+                    <div class="zip-grid-max-768-4 features-item">
+                
+                        <div class="icon-wrapper">
+                            <button class="btn btn-lg btn-blue small" onclick = "printToConsoleSimple()" > Click Me </button>
+                        </div>
+                    
+                        <h3>Print To Console</h3>
+                        
+                        <p>
+                            This button calls the <span class="blue-text">printToConsoleSimple()</span> function, to print to the console a simple message.
+                        </p>
+                    
+                    </div>
+                    <!--end zip-grid-max-768-4-->
+                    
+                    <!--begin zip-grid-max-768-4-->
+                    <div class="zip-grid-max-768-4 features-item">
+                
+                        <div class="icon-wrapper">
+                             <button class="btn btn-lg btn-blue small" onclick = "showAlert()" > Click Me </button>
+                        </div>
+                    
+                        <h3>Show an alert!</h3>
+                        
+                        <p>
+                            Once clicked this button will call the fuction <span class="blue-text">showAlert()</span> which Show you an alert with some details.
+                        </p>
+                    
+                    </div>
+                    <!--end zip-grid-max-768-4-->
+                    
+                </div>
+                <!--end row-->
+ 
+          </div>
+          <!--end container-->
+                
+      </div>
+      <!--end section-white-->
+      
+    </section>
+    <!--end  javaScript buttons-->
+
+        
+    <!--begin footer -->
+    <div class="footer">
+            
+        <!--begin container -->
+        <div class="container">
+        
+            <!--begin row -->
+            <div class="row">
+            
+                <!--begin zip-grid-max-992-12 -->
+                <div class="zip-grid-max-992-12 text-center">
+                    
+                    <!--begin copyright -->
+                    <div class="copyright">
+                        <div class="footer-logo"><img src="./images/logo-footer.svg?version=1"></div>
+                        <p>This is just the tip of the Icberge <a href="https://zipwebs.com/" target="_blank">Zip Webs</a></p>
+                        
+                    </div>
+                    <!--end copyright -->
+                                                    
+                    <!--begin footer_social -->
+                    <ul class="footer_social">
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-skype"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-dribble"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--end footer_social -->
+                    
+                </div>
+                <!--end zip-grid-max-992-6 -->
+                
+            </div>
+            <!--end row -->
+            
+        </div>
+        <!--end container -->
+                
+    </div>
+    <!--end footer -->
+    
+
+    <!-- Load Javascript in the footer so that it's loaded after the other elements ie. There's no rendor blocking elements loaded-->
+    <script src="js/main.js"></script>
+    
+</body></html>
